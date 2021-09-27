@@ -40,7 +40,7 @@ public class BasicCalculatorTest {
 
 
     @Test
-    @DisplayName("Testing sum: 8-6=2")
+    @DisplayName("Testing subtract: 8-6=2")
     public void subtract() {
         // Arrange
         Long number1 = 8L;
@@ -68,7 +68,7 @@ public class BasicCalculatorTest {
     }
 
     @Test
-    @DisplayName("Testing sum: 2*6=12")
+    @DisplayName("Testing multiplication: 2*6=12")
     public void multiplication() {
         // Arrange
         Long number1 = 2L;
@@ -97,7 +97,7 @@ public class BasicCalculatorTest {
 
 
     @Test
-    @DisplayName("Testing sum: 8-4=2")
+    @DisplayName("Testing division: 8-4=2")
     public void division() {
         // Arrange
         Long number1 = 8L;
@@ -111,7 +111,7 @@ public class BasicCalculatorTest {
         assertEquals(expectedValue, result);
     }
 
-    @DisplayName("Testing various multiplications")
+    @DisplayName("Testing various Divisions")
     @ParameterizedTest(name = "{0} / {1} = {2}")
     @CsvSource({
             "0,    1,   0",
