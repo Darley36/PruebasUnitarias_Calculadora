@@ -1,1 +1,11 @@
-/.idea/
+*.class
+target/
+.idea/
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# IntelliJ files
+
