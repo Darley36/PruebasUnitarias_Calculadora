@@ -1,5 +1,7 @@
 *.class
+
 target/
+
 .idea/
 
 # Eclipse files
@@ -7,5 +9,5 @@ target/
 .project
 .settings/
 
-# IntelliJ files
+
 
